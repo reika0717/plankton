@@ -1,0 +1,76 @@
+$main-color: #37474F
+$sub-color: #607D8B
+$sub-color2: #90A4AE
+$sub-color3: #F7B633
+$letter-gray: #555
+
+body
+  font-family: "Noto Sans Japanese"
+
+//header
+header
+  border-top: 2px solid $main-color
+  height: 96px
+  .logo-img
+    width: 330px
+    margin: 5px 0 0 20px
+  &.fixed
+    background: white
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 9999
+  nav
+    ul
+      margin: 5px 9px
+      width: 815px
+      display: flex
+      justify-content: space-around
+      align-items: center
+      padding: 0
+      li
+        list-style: none
+        font-size: 12px
+        padding: 0 15px
+        a
+          text-decoration: none
+          color: $letter-gray
+          line-height: 1.5em
+        a::after
+          content: ''
+          display: block
+          width: 0
+          height: 2px
+          background: $sub-color3
+          transition: width .3s
+        a:hover::after
+          width: 100%
+
+//home
+.home__main
+  width: 100vw
+  height: 250px
+  background: url('../assets/main-bg.jpg') no-repeat
+  background-size: 100%
+  display: flex
+  align-items: center
+  .home__main__letter
+    width: 492px
+    height: 157px
+    padding: 0 38px 7px
+    background-color: rgba(0,0,0,0.5)
+    p
+      color: white
+      margin: 0
+    .letter__title-1
+      font-size: 41px
+      margin-bottom: -3px
+    .letter__title-2
+      font-size: 41px
+    .letter__date
+      font-size: 35px
+    .letter__place
+      font-size: 22px
+.home__content
+  width: 90vw
+  margin: 0 auto

@@ -1,0 +1,1 @@
+$(function(){$("#header").load("header.html"),$("#footer").load("footer.html");var o=$("#global-nav").offset().top;$(window).scroll(function(){$(this).scrollTop()>=o?$("#global-nav").addClass("fixed"):$("#global-nav").removeClass("fixed")})});
