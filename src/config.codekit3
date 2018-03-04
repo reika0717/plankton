@@ -7,7 +7,7 @@
 		"uuidString": "12A0A6EB-ED02-4AF7-9DA1-3FACB3F566D6"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/assets\/logo.jpg": {
 		"ft": 16384,
@@ -28,6 +28,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/assets\/New Tab.htm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/New Tab.htm",
+		"oF": 0
 		},
 	"\/footer.html": {
 		"cB": 0,

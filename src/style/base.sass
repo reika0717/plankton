@@ -16,35 +16,42 @@ header
     margin: 5px 0 0 20px
   &.fixed
     background: white
-    position: fixed
+    /*position: fixed*/
     top: 0
     width: 100%
     z-index: 9999
   nav
-    ul
+    ul.global-nav__wrapper
       margin: 5px 9px
-      width: 815px
+      width: 1027px
       display: flex
       justify-content: space-around
-      align-items: center
       padding: 0
-      li
+      .nav__list-parent
         list-style: none
         font-size: 12px
         padding: 0 15px
-        a
-          text-decoration: none
-          color: $letter-gray
-          line-height: 1.5em
-        a::after
-          content: ''
-          display: block
-          width: 0
-          height: 2px
-          background: $sub-color3
-          transition: width .3s
-        a:hover::after
-          width: 100%
+        color: $letter-gray
+        line-height: 1.5em
+        ul
+          display: flex
+          flex-direction: column
+          display: none
+          li
+            list-style: none
+            margin-left: -40px
+            background: #fff
+            z-index: 99
+            line-height: 2.8em
+      .nav__list-parent::after
+        content: ''
+        display: block
+        width: 0
+        height: 2px
+        background: $sub-color3
+        transition: width .3s
+      .nav__list-parent:hover::after
+        width: 100%
 
 //home
 .home__main

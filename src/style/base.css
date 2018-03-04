@@ -9,34 +9,41 @@ header {
     margin: 5px 0 0 20px; }
   header.fixed {
     background: white;
-    position: fixed;
+    /*position: fixed*/
     top: 0;
     width: 100%;
     z-index: 9999; }
-  header nav ul {
+  header nav ul.global-nav__wrapper {
     margin: 5px 9px;
-    width: 815px;
+    width: 1027px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     padding: 0; }
-    header nav ul li {
+    header nav ul.global-nav__wrapper .nav__list-parent {
       list-style: none;
       font-size: 12px;
-      padding: 0 15px; }
-      header nav ul li a {
-        text-decoration: none;
-        color: #555;
-        line-height: 1.5em; }
-      header nav ul li a::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: #F7B633;
-        transition: width .3s; }
-      header nav ul li a:hover::after {
-        width: 100%; }
+      padding: 0 15px;
+      color: #555;
+      line-height: 1.5em; }
+      header nav ul.global-nav__wrapper .nav__list-parent ul {
+        display: flex;
+        flex-direction: column;
+        display: none; }
+        header nav ul.global-nav__wrapper .nav__list-parent ul li {
+          list-style: none;
+          margin-left: -40px;
+          background: #fff;
+          z-index: 99;
+          line-height: 2.8em; }
+    header nav ul.global-nav__wrapper .nav__list-parent::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #F7B633;
+      transition: width .3s; }
+    header nav ul.global-nav__wrapper .nav__list-parent:hover::after {
+      width: 100%; }
 
 .home__main {
   width: 100vw;
