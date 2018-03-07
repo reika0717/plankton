@@ -7,7 +7,7 @@
 		"uuidString": "12A0A6EB-ED02-4AF7-9DA1-3FACB3F566D6"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26261",
 "files": {
 	"\/assets\/logo.jpg": {
 		"ft": 16384,
@@ -137,7 +137,6 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
-	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

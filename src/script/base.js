@@ -11,4 +11,9 @@ $(function(){
       $('header').removeClass('fixed')
     }
   });
+
+  $(document).on('click', 'li.nav__list-parent', function () {
+    var list_child = $(this).find('ul')
+    $(list_child).slideToggle()
+  })
 });

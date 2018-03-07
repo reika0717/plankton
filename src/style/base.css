@@ -24,7 +24,8 @@ header {
       font-size: 12px;
       padding: 0 15px;
       color: #555;
-      line-height: 1.5em; }
+      line-height: 1.5em;
+      cursor: pointer; }
       header nav ul.global-nav__wrapper .nav__list-parent ul {
         display: flex;
         flex-direction: column;
