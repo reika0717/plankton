@@ -2,6 +2,7 @@ $main-color: #37474F
 $sub-color: #607D8B
 $sub-color2: #90A4AE
 $sub-color3: #F7B633
+$dark-green: #0F5665
 $letter-gray: #555
 
 body
@@ -11,74 +12,101 @@ body
 header
   border-top: 2px solid $main-color
   height: 96px
+  position: fixed
+  width: 100vw
+  z-index: 9999
+  background: linear-gradient(#0F5665 37%, transparent 100%)
   .logo-img
     width: 330px
     margin: 5px 0 0 20px
-  &.fixed
-    background: white
-    /*position: fixed*/
-    top: 0
-    width: 100%
-    z-index: 9999
+
   nav
     ul.global-nav__wrapper
-      margin: 5px 9px
-      width: 1027px
+      margin: 16px 9px 0
       display: flex
       justify-content: space-around
       padding: 0
+      height: 22px
       .nav__list-parent
         list-style: none
-        font-size: 12px
-        padding: 0 15px
-        color: $letter-gray
+        font-size: 14px
+        color: white
         line-height: 1.5em
         cursor: pointer
+        text-align: center
+        width: 200px
+        &.double-line
+          height: 42px
         ul
           display: flex
           flex-direction: column
+          align-items: center
           display: none
+          padding: 0
+          background: rgba(255, 255, 255, 0.8)
+          border-radius: 3px
           li
             list-style: none
-            margin-left: -40px
-            background: #fff
             z-index: 99
-            line-height: 2.8em
-      .nav__list-parent::after
-        content: ''
-        display: block
-        width: 0
-        height: 2px
-        background: $sub-color3
-        transition: width .3s
-      .nav__list-parent:hover::after
-        width: 100%
+            margin: 5px 0
+            color: $dark-green
 
 //home
 .home__main
   width: 100vw
-  height: 250px
-  background: url('../assets/main-bg.jpg') no-repeat
+  height: 461px
+  background: url('../assets/top-bg.png') repeat-x
   background-size: 100%
   display: flex
   align-items: center
-  .home__main__letter
-    width: 492px
-    height: 157px
-    padding: 0 38px 7px
-    background-color: rgba(0,0,0,0.5)
-    p
-      color: white
-      margin: 0
-    .letter__title-1
-      font-size: 41px
-      margin-bottom: -3px
-    .letter__title-2
-      font-size: 41px
-    .letter__date
-      font-size: 35px
-    .letter__place
-      font-size: 22px
+  .top_logo
+    width: 867px
+    height: 248px
 .home__content
-  width: 90vw
-  margin: 0 auto
+  width: 1024px
+  margin: 30px auto 0
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+	margin: 0
+	padding: 0
+	border: 0
+	font-size: 100%
+	font: inherit
+	vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+	display: block
+
+body
+	line-height: 1
+
+ol, ul
+	list-style: none
+
+blockquote, q
+	quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+	content: ''
+	content: none
+
+table
+	border-collapse: collapse
+	border-spacing: 0
+

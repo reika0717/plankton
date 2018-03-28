@@ -4,102 +4,109 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "12A0A6EB-ED02-4AF7-9DA1-3FACB3F566D6"
+		"uuidString": "129189B3-239B-4E1B-A302-CE5214130A7A"
 		}
 	],
 "creatorBuild": "26330",
 "files": {
-	"\/assets\/logo.png": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/src\/assets\/logo.png": {
 		"ft": 32768,
 		"iS": 554124,
 		"oA": 0,
-		"oAP": "\/assets\/logo.png",
+		"oAP": "\/src\/assets\/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/logo.svg": {
+	"\/src\/assets\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/logo.svg",
+		"oAP": "\/src\/assets\/logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/New Tab.htm": {
+	"\/src\/assets\/New Tab.htm": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/New Tab.htm",
+		"oAP": "\/src\/assets\/New Tab.htm",
 		"oF": 0
 		},
-	"\/assets\/top-bg.png": {
+	"\/src\/assets\/top-bg.png": {
 		"ft": 32768,
-		"iS": 768573,
+		"iS": 763075,
 		"oA": 0,
-		"oAP": "\/assets\/top-bg.png",
+		"oAP": "\/src\/assets\/top-bg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/footer.html": {
+	"\/src\/footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/footer.html",
+		"oAP": "\/src\/footer.html",
 		"oF": 0
 		},
-	"\/header.html": {
+	"\/src\/header.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/header.html",
+		"oAP": "\/src\/header.html",
 		"oF": 0
 		},
-	"\/index.html": {
+	"\/src\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/src\/index.html",
 		"oF": 0
 		},
-	"\/script\/base-min.js": {
+	"\/src\/script\/base-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/script\/base-min-min.js",
+		"oAP": "\/src\/script\/base-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/script\/base.js": {
+	"\/src\/script\/base.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/script\/base-min.js",
+		"oAP": "\/src\/script\/base-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/style\/base.css": {
+	"\/src\/style\/base.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style\/base-min.css",
+		"oAP": "\/src\/style\/base-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/style\/base.sass": {
+	"\/src\/style\/base.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -107,28 +114,28 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style\/base.css",
+		"oAP": "\/src\/style\/base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/style\/normalizer-min.css": {
+	"\/src\/style\/normalizer-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style\/normalizer-min-min.css",
+		"oAP": "\/src\/style\/normalizer-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/style\/normalizer.css": {
+	"\/src\/style\/normalizer.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style\/normalizer-min.css",
+		"oAP": "\/src\/style\/normalizer-min.css",
 		"oF": 0,
 		"oS": 3
 		}
@@ -138,10 +145,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 541136204,
-	"displayValue": "src",
+	"creationDate": 543939628,
+	"displayValue": "plankton",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-leo"
+	"iconImageName": "brackets_teal"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
