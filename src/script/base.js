@@ -11,11 +11,4 @@ $(function(){
   //     $('header').removeClass('fixed')
   //   }
   // });
-
-  $('li.nav__list-parent').hover(function () {
-    var list_child = $(this).find('ul')
-    $(list_child).slideToggle()
-  })
-
-
 });

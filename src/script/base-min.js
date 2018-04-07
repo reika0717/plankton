@@ -1,1 +1,1 @@
-$(function(){$("li.nav__list-parent").hover(function(){var i=$(this).find("ul");$(i).slideToggle()})});
+$(function(){});

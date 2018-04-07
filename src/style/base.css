@@ -1,13 +1,13 @@
 body {
-  font-family: "Noto Sans Japanese"; }
+  font-family: "Sawarabi Mincho";
+  background-color: #0d1b38; }
 
 header {
   border-top: 2px solid #37474F;
   height: 96px;
   position: fixed;
   width: 100vw;
-  z-index: 9999;
-  background: linear-gradient(#0F5665 37%, transparent 100%); }
+  z-index: 9999; }
   header .logo-img {
     width: 330px;
     margin: 5px 0 0 20px; }
@@ -38,13 +38,13 @@ header {
         header nav ul.global-nav__wrapper .nav__list-parent ul li {
           list-style: none;
           z-index: 99;
-          margin: 5px 0;
           color: #0F5665; }
+    header nav ul.global-nav__wrapper .nav__list-parent:hover ul {
+      display: block; }
 
 .home__main {
   width: 100vw;
   height: 461px;
-  background: url("../assets/top-bg.png") repeat-x;
   background-size: 100%;
   display: flex;
   align-items: center; }
