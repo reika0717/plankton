@@ -6,77 +6,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="style/normalizer-min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css">
+  <link rel="stylesheet" href="style/normalizer-min.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="style/base.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
-<body>
-<header>
-  <nav id='global-nav'>
-    <ul class='global-nav__wrapper'>
-      <li class='nav__list-parent'>HOME</li>
-      <li class='nav__list-parent'>大会会場
-        <ul>
-          <li>会場</li>
-          <li>アクセス</li>
-          <li>バスのご案内</li>
-          <li>キャンパスマップ</li>
-        </ul>
-      </li>
-      <li class='nav__list-parent'>大会プログラム
-        <ul>
-          <li>大会日程</li>
-          <li>基調講演</li>
-          <li>公開シンポジウム</li>
-          <li>自由集会</li>
-          <li>若手の会</li>
-        </ul>
-      </li>
-      <li class='nav__list-parent'>参加・発表申込
-        <ul>
-          <li>大会参加費</li>
-          <li>事前申込</li>
-          <li>当日申込</li>
-        </ul>
-      </li>
-      <li class='nav__list-parent'>発表される皆様へ
-        <ul>
-          <li>発表される皆様へ</li>
-          <li>口頭発表</li>
-          <li>ポスター発表</li>
-          <li>講演要旨の提出</li>
-        </ul>
-      </li>
-      <li class='nav__list-parent'>各種締切り日</li>
-      <li class='nav__list-parent'>観光案内</li>
-      <li class='nav__list-parent double-line'>大会実行委員会<br />大会ページ更新履歴
-        <ul>
-          <li>大会実行委員会</li>
-          <li>更新履歴</li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-</header>
-    <div class="home__main">
+<body id="body">
+  <header>
+    <nav id='global-nav'>
+      <ul class='global-nav__wrapper'>
+        <a class='nav__list-parent' href='index.html'>HOME</li>
+        <a class='nav__list-parent nav__toggle' href='venue.html'>
+          <span>大会会場</span>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>会場</li>
+            <li>アクセス</li>
+            <li>バスのご案内</li>
+            <li>キャンパスマップ</li>
+          </ul>
+        </a>
+        <a href='program.html' class='nav__list-parent nav__toggle'>
+          <span>大会プログラム</span>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>大会日程</li>
+            <li>基調講演</li>
+            <li>公開シンポジウム</li>
+            <li>自由集会</li>
+            <li>若手の会</li>
+          </ul>
+        </a>
+        <a href='subscription.html' class='nav__list-parent nav__toggle'>
+          <span>参加・発表申込</span>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>大会参加費</li>
+            <li>事前申込</li>
+            <li>当日申込</li>
+          </ul>
+        </a>
+        <a href="announce.html" class='nav__list-parent nav__toggle'>
+          <span>発表される皆様へ</span>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>発表される皆様へ</li>
+            <li>口頭発表</li>
+            <li>ポスター発表</li>
+            <li>講演要旨の提出</li>
+          </ul>
+        </a>
+        <a href='deadline.html' class='nav__list-parent'>各種締切り日</a>
+        <a href='guide.html' class='nav__list-parent'>観光案内</a>
+        <a href='log.html' class='nav__list-parent nav__toggle double-line'>
+          <span>大会実行委員会<br />大会ページ更新履歴</span>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>大会実行委員会</li>
+            <li>更新履歴</li>
+          </ul>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <div class="content__wrapper">
+    <div class="home__wrapper">
+      <div class="home__main">
+        <img src="assets/top_title.svg" alt="" class="top_logo">
+        <img src="assets/plankton_img4.jpg" alt="" class='top__bg1'>
+        <img src="assets/plankton_img1.png" alt="" class='top__bg2 top__bg-plankton'>
+        <img src="assets/plankton_img2.png" alt="" class='top__bg3 top__bg-plankton'>
+        <img src="assets/plankton_img3.png" alt="" class='top__bg4 top__bg-plankton'>
+        <a href="#home__content" class="scroll-btn"><span></span>Scroll</a>
+      </div>
     </div>
-    <div class="home__content">
-<!--       <h2>【お願い】</h2>
-      <ul>
-        <li>
-          発表申込をされた皆様は、「大会プログラム」のページに掲載しました発表プログラムで、ご自分の講演タイトル等をご確認ください。
-        </li>
-        <li>
-          ※万一、発表申込をされたにもかかわらず、発表プログラムにご自分の講演タイトルがなかった場合は、早急に大会事務局にご連絡ください。
-        </li>
-        <li>
-          彦根駅では、県立大学へ向かうバスの本数が少ないです。南彦根駅には県立大学へ向かうバスの本数が多くありますので、彦根駅から南彦根駅までJRで移動していただき（１駅）、南彦根駅からバスをご利用くださいますようご協力お願いします。
-        </li>
-      </ul> -->
+    <div id="home__content" class="content-box__wrapper">
+      <div class="content-box">
+        <h2 class="content__title-en">News</h2>
+        <h2 class="content__title-ja">お知らせ</h2>
+        <div class="sub-title__wrapper">
+          <h3 class="content__title-small">公開シンポジウムテーマの募集</h3>
+      </div>
+        <p>シンポジウムのテーマを募集します。奮ってご応募ください。シンポジウムは一般公開とし、両学会の共通のテーマとなるようにご配慮願います。</p>
+      </div>
+      <div class="content-box">
+        <h2 class="content__title-en">Our Requests</h2>
+        <h2 class="content__title-ja">お願い</h2>
+        <p>随時更新致します。</p>
+      </div>
     </div>
-    <footer></footer id='footer'>
+  </div>
+  <footer></footer id='footer'>
   <script src='script/base.js'></script>
 </body>
 
