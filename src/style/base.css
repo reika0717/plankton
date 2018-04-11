@@ -56,6 +56,9 @@ table, th, td {
 tr:nth-child(even) {
   background: #d9d9d9; }
 
+.emphasis {
+  color: red; }
+
 header {
   border-top: 2px solid #37474F;
   height: 96px;
@@ -202,3 +205,9 @@ header {
 .file_4,
 .file_5 {
   margin: -61px auto -199px; }
+
+.registration_table tr, .registration_table td {
+  background-color: white; }
+
+.registration_table .rowspan_2 {
+  vertical-align: middle; }
