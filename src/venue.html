@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,12 @@
   <link rel="stylesheet" href="style/base.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
+
 <body id="body">
   <header>
-      <nav id='global-nav'>
-        <ul class='global-nav__wrapper'>
-          <a class='nav__list-parent' href='index.html'>HOME</li>
+    <nav id='global-nav'>
+      <ul class='global-nav__wrapper'>
+        <a class='nav__list-parent' href='index.html'>HOME</li>
           <a class='nav__list-parent nav__toggle' href='venue.html'>
             <span>大会会場</span>
             <i class="fas fa-caret-down"></i>
@@ -59,35 +61,41 @@
           <a href='deadline.html' class='nav__list-parent'>各種締切り日</a>
           <a href='guide.html' class='nav__list-parent'>観光案内</a>
           <a href='log.html' class='nav__list-parent nav__toggle double-line'>
-            <span>大会実行委員会<br />大会ページ更新履歴</span>
+            <span>大会実行委員会
+              <br />大会ページ更新履歴</span>
             <i class="fas fa-caret-down"></i>
             <ul>
               <li>大会実行委員会</li>
               <li>更新履歴</li>
             </ul>
           </a>
-        </ul>
-      </nav>
-    </header>
+      </ul>
+    </nav>
+  </header>
+  <div class="content__header-section"></div>
+  <div class="content__main-title">
+    <h1>大会会場</h1>
+  </div>
   <div class="content-box__wrapper">
-    <div class="content-box">
+    <div id="venue" class="content-box">
       <h2 class="content__title-en" id="access">Venue</h2>
       <h2 class="content__title-ja">会場</h2>
       <p>〒192-8577東京都八王子市丹木町1-236　創価大学　中央教育</p>
     </div>
-    <div class="content-box">
+    <div id="access" class="content-box">
       <h2 class="content__title-en" id="access">Access</h2>
       <h2 class="content__title-ja">アクセス</h2>
       <div class="sub-title__wrapper">
         <h3 class="content__title-small">最寄駅から大学まで</h3>
       </div>
-      <p>JR八王子駅北口、京王八王子駅から西東京バスやタクシーをご利用ください。バスの詳細は<a href="#bus">バスのご案内</a>をごらんください。</p>
+      <p>JR八王子駅北口、京王八王子駅から西東京バスやタクシーをご利用ください。バスの詳細は
+        <a href="#bus">バスのご案内</a>をごらんください。</p>
       <ul>
         <li>JR八王子駅からバス/タクシーで約20分</li>
         <li>京王八王子駅からバス/タクシーで約25分</li>
       </ul>
     </div>
-    <div class="content-box">
+    <div id="bus_guide" class="content-box">
       <h2 class="content__title-en">Bus Guide</h2>
       <h2 class="content__title-ja">バスのご案内</h2>
       <p>JR八王子駅北口12番・14番（※平日・土曜の始発から12:30までは14番、日曜・祝日は終日12番）もしくは京王八王子駅4番にて、</p>
@@ -98,67 +106,68 @@
         <li>創価大学正門東京富士美術館行き</li>
       </ol>
       <p>のいずれかのバスに乗車し、創価大正門東京富士美術館で下車してください。</p>
-      <p>大会開催期間9月9日（日）～9月11日（火）の受付時間周辺に創価大学に到着する八王子発、および京王八王子発のバス時刻表を作成しました。ご活用ください。※他の時刻に発着するバスについては、<a href='http://www.nisitokyobus.co.jp/'>西東京バスHP（http://www.nisitokyobus.co.jp/）</a>をご覧ください。</p>
+      <p>大会開催期間9月9日（日）～9月11日（火）の受付時間周辺に創価大学に到着する八王子発、および京王八王子発のバス時刻表を作成しました。ご活用ください。※他の時刻に発着するバスについては、
+        <a href='http://www.nisitokyobus.co.jp/'>西東京バスHP（http://www.nisitokyobus.co.jp/）</a>をご覧ください。</p>
     </div>
-    <div class="content-box">
-        <h2 class="content__title-en">Campus Map</h2>
-        <h2 class="content__title-ja">キャンパスマップ</h2>
-        <div class="sub-title__wrapper">
-            <h3 class="content__title-small">正門から中央教育棟まで</h3>
-        </div>
-        <ol>
-          <li>正門から直進</li>
-          <li>突き当たりを左折して道なりに進む</li>
-          <li>横断歩道を渡って直進すると、左前方に中央教育棟が見えてきます</li>
-        </ol>
-        <img src="assets/file1.JPG" class="file_1" alt="">
-        <div class="sub-title__wrapper">
-            <h3 class="content__title-small">中央教育棟の各会場</h3>
-        </div>
-        <p>各会場は以下の通りです。</p>
-        <table>
-          <tr>
-            <td>公開シンポジウム・基調講演</td>
-            <td>AW303</td>
-          </tr>
-          <tr>
-            <td>ベントス学会口頭発表</td>
-            <td>AW403</td>
-          </tr>
-          <tr>
-            <td>プランクトン学会口頭発表</td>
-            <td>AW404</td>
-          </tr>
-          <tr>
-            <td>ポスター会場（ベントス・プランクトン合同)</td>
-            <td>エントランスホール（1F）</td>
-          </tr>
-          <tr>
-            <td>控え室（9/10-11）</td>
-            <td>AC533・AC534</td>
-          </tr>
-          <tr>
-            <td>プランクトン学会評議委員会（9/9)</td>
-            <td>AC533</td>
-          </tr>
-          <tr>
-            <td>ベントス学会運営委員会（9/9</td>
-            <td>AC534</td>
-          </tr>
-          <tr>
-            <td>プランクトン学会若手の会</td>
-            <td>AC531</td>
-          </tr>
-          <tr>
-            <td>ベントス学会自由集会・若手の会</td>
-            <td>AC532</td>
-          </tr>
-        </table>
-        <img src="assets/file2.JPG" class="file_2" alt="">
-        <img src="assets/file3.JPG" class="file_3" alt="">
-        <img src="assets/file4.JPG" class="file_4" alt="">
-        <img src="assets/file5.JPG" class="file_5" alt="">
-    </div>  
+    <div id="campus_map" class="content-box">
+      <h2 class="content__title-en">Campus Map</h2>
+      <h2 class="content__title-ja">キャンパスマップ</h2>
+      <div class="sub-title__wrapper">
+        <h3 class="content__title-small">正門から中央教育棟まで</h3>
+      </div>
+      <ol>
+        <li>正門から直進</li>
+        <li>突き当たりを左折して道なりに進む</li>
+        <li>横断歩道を渡って直進すると、左前方に中央教育棟が見えてきます</li>
+      </ol>
+      <img src="assets/file1.JPG" class="file_1" alt="">
+      <div class="sub-title__wrapper">
+        <h3 class="content__title-small">中央教育棟の各会場</h3>
+      </div>
+      <p>各会場は以下の通りです。</p>
+      <table>
+        <tr>
+          <td>公開シンポジウム・基調講演</td>
+          <td>AW303</td>
+        </tr>
+        <tr>
+          <td>ベントス学会口頭発表</td>
+          <td>AW403</td>
+        </tr>
+        <tr>
+          <td>プランクトン学会口頭発表</td>
+          <td>AW404</td>
+        </tr>
+        <tr>
+          <td>ポスター会場（ベントス・プランクトン合同)</td>
+          <td>エントランスホール（1F）</td>
+        </tr>
+        <tr>
+          <td>控え室（9/10-11）</td>
+          <td>AC533・AC534</td>
+        </tr>
+        <tr>
+          <td>プランクトン学会評議委員会（9/9)</td>
+          <td>AC533</td>
+        </tr>
+        <tr>
+          <td>ベントス学会運営委員会（9/9</td>
+          <td>AC534</td>
+        </tr>
+        <tr>
+          <td>プランクトン学会若手の会</td>
+          <td>AC531</td>
+        </tr>
+        <tr>
+          <td>ベントス学会自由集会・若手の会</td>
+          <td>AC532</td>
+        </tr>
+      </table>
+      <img src="assets/file2.JPG" class="file_2" alt="">
+      <img src="assets/file3.JPG" class="file_3" alt="">
+      <img src="assets/file4.JPG" class="file_4" alt="">
+      <img src="assets/file5.JPG" class="file_5" alt="">
+    </div>
   </div>
   <footer></footer id='footer'>
   <script src='script/base.js'></script>

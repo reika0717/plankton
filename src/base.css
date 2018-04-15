@@ -21,61 +21,45 @@
 
 .content-box__wrapper {
   width: 800px;
-  margin: -30px auto 0;
+  margin: 0 auto;
   color: #333; }
 
 .content-box {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid gray;
   width: 800px;
   margin: 0 auto;
   margin-top: 110px; }
   .content-box p {
     line-height: 1.5em;
-    font-size: 17px; }
+    font-size: 15px; }
 
 .sub-title__wrapper .content__title-small {
   margin-bottom: 15px;
   border-left: 4px solid gray;
   padding: 7px 15px;
-  font-size: 22px;
-  letter-spacing: 1px; }
+  font-size: 18px; }
   .sub-title__wrapper .content__title-small.deadline {
     margin-top: 110px; }
+
+ol, ul {
+  line-height: 1.3em;
+  margin: 15px 0 15px 19px; }
 
 table {
   margin-top: 10px; }
 
 table, th, td {
   border-collapse: collapse;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
   line-height: 1.5;
   padding: 3px 7px 3px 7px;
-  font-size: 15px;
-  margin: 35px auto 4px;
-  width: 800px;
-  text-align: center;
-  padding: 5px; }
+  font-size: 15px; }
 
 tr:nth-child(even) {
-  background: rgba(0, 0, 0, 0.05); }
+  background: #d9d9d9; }
 
 .emphasis {
   color: red; }
-
-.content__header-section {
-  width: 100vw;
-  height: 79px; }
-
-.content__main-title {
-  padding: 7px 0;
-  background-color: rgba(95, 158, 160, 0.9);
-  position: fixed;
-  width: 100vw; }
-  .content__main-title h1 {
-    text-align: center;
-    font-size: 17px;
-    color: white;
-    letter-spacing: 2px; }
 
 header {
   border-top: 2px solid #37474F;
@@ -90,50 +74,33 @@ header {
     width: 330px;
     margin: 5px 0 0 20px; }
   header nav ul.global-nav__wrapper {
-    font-size: 0;
-    list-style-type: none;
+    width: 1024px;
+    margin: 16px auto 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 77px; }
+    justify-content: space-between;
+    padding: 0;
+    height: 22px; }
     header nav ul.global-nav__wrapper .nav__list-parent {
+      list-style: none;
+      text-decoration: none;
       font-size: 14px;
       color: white;
       line-height: 1.5em;
-      display: inline-block;
-      padding: 28px 15px;
-      position: relative;
-      text-decoration: none; }
-      header nav ul.global-nav__wrapper .nav__list-parent ul {
-        display: none;
-        background: rgba(255, 255, 255, 0.8);
-        color: #333;
-        top: 62px; }
-      header nav ul.global-nav__wrapper .nav__list-parent:nth-of-type(8) ul {
-        top: 72px; }
-      header nav ul.global-nav__wrapper .nav__list-parent a.main__title {
-        text-decoration: none;
-        color: white; }
-      header nav ul.global-nav__wrapper .nav__list-parent:hover {
-        cursor: pointer;
-        background-color: rgba(0, 0, 0, 0.1);
-        color: rgba(95, 158, 160, 0.9); }
-        header nav ul.global-nav__wrapper .nav__list-parent:hover a.main__title {
-          color: rgba(95, 158, 160, 0.9); }
-        header nav ul.global-nav__wrapper .nav__list-parent:hover ul {
-          display: block;
-          margin-top: 15px;
-          width: 200px;
-          position: absolute;
-          left: 0; }
-          header nav ul.global-nav__wrapper .nav__list-parent:hover ul li {
-            display: block;
-            padding: 3px 0 3px 15px; }
-            header nav ul.global-nav__wrapper .nav__list-parent:hover ul li a {
-              color: #333;
-              text-decoration: none; }
-            header nav ul.global-nav__wrapper .nav__list-parent:hover ul li:hover {
-              background-color: rgba(0, 0, 0, 0.1); }
+      cursor: pointer; }
+      header nav ul.global-nav__wrapper .nav__list-parent.double-line {
+        height: 42px; }
+    header nav ul.global-nav__wrapper .nav__toggle ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+      padding: 0;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 3px; }
+      header nav ul.global-nav__wrapper .nav__toggle ul li {
+        list-style: none;
+        z-index: 99;
+        color: #0F5665; }
     header nav ul.global-nav__wrapper .nav__list-parent:hover ul {
       display: block; }
 
