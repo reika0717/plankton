@@ -5,7 +5,7 @@ $(function() {
   });
 
   $('#footer').load('../src/footer.html')
-});
+
   $('a[href^="#"]').click(function() {
     var speed = 500;
     var href = $(this).attr("href");
