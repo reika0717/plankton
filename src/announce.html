@@ -17,58 +17,95 @@
   <header>
     <nav id='global-nav'>
       <ul class='global-nav__wrapper'>
-        <a class='nav__list-parent' href='index.html'>HOME</li>
-          <a class='nav__list-parent nav__toggle' href='venue.html'>
-            <span>大会会場</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>会場</li>
-              <li>アクセス</li>
-              <li>バスのご案内</li>
-              <li>キャンパスマップ</li>
-            </ul>
-          </a>
-          <a href='program.html' class='nav__list-parent nav__toggle'>
-            <span>大会プログラム</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>大会日程</li>
-              <li>基調講演</li>
-              <li>公開シンポジウム</li>
-              <li>自由集会</li>
-              <li>若手の会</li>
-            </ul>
-          </a>
-          <a href='subscription.html' class='nav__list-parent nav__toggle'>
-            <span>参加・発表申込</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>大会参加費</li>
-              <li>事前申込</li>
-              <li>当日申込</li>
-            </ul>
-          </a>
-          <a href="announce.html" class='nav__list-parent nav__toggle'>
-            <span>発表される皆様へ</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>発表される皆様へ</li>
-              <li>口頭発表</li>
-              <li>ポスター発表</li>
-              <li>講演要旨の提出</li>
-            </ul>
-          </a>
+        <li><a class='nav__list-parent' href='index.html'>HOME</a></li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='venue.html' class="main__title">大会会場</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="venue.html#venue">会場</a>
+            </li>
+            <li>
+              <a href="venue.html#access">アクセス</a>
+            </li>
+            <li>
+              <a href="venue.html#bus_guide">バスのご案内</a>
+            </li>
+            <li>
+              <a href="venue.html#campus_map">キャンパスマップ</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='program.html' class="main__title">大会プログラム</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="program.html#conference_program">大会日程</a>
+            </li>
+            <li>
+              <a href="program.html#keynote_speech">基調講演</a>
+            </li>
+            <li>
+              <a href="program.html#public_symposium">公開シンポジウム・自由集会</a>
+            </li>
+            <li>
+              <a href="program.html#young_member_meeting">若手の会</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='subscription.html' class="main__title">参加・発表申込</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="subscription.html#registration">大会参加費</a>
+            </li>
+            <li>
+              <a href="subscription.html#pre_register">事前申込</a>
+            </li>
+            <li>
+              <a href="subscription.html#register_on_the_day">当日申込</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='announce.html' class="main__title">発表される皆様へ</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="announce.html#annouce">発表される皆様へ</a>
+            </li>
+            <li>
+              <a href="announce.html#oral_presentation">口頭発表</a>
+            </li>
+            <li>
+              <a href="announce.html#poster_presentation">ポスター発表</a>
+            </li>
+            <li>
+              <a href="announce.html#presentations_outline">講演要旨の提出</a>
+            </li>
+          </ul>
+        </li>
+        <li>
           <a href='deadline.html' class='nav__list-parent'>各種締切り日</a>
+        </li>
+        <li>
           <a href='guide.html' class='nav__list-parent'>観光案内</a>
-          <a href='log.html' class='nav__list-parent nav__toggle double-line'>
-            <span>大会実行委員会
-              <br />大会ページ更新履歴</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>大会実行委員会</li>
-              <li>更新履歴</li>
-            </ul>
-          </a>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='log.html' class="main__title">大会実行委員会
+            <br>大会ページ更新履歴</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="log.html#conference_exective_committee">大会実行委員会</a>
+            </li>
+            <li>
+              <a href="log.html#change_log">更新履歴</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </header>
@@ -77,8 +114,8 @@
     <h1>発表される皆様へ</h1>
   </div>
   <div class="content-box__wrapper">
-    <div class="content-box">
-      <h2 class="content__title-en" id="access">Announce</h2>
+    <div id="annouce" class="content-box">
+      <h2 class="content__title-en">Announce</h2>
       <h2 class="content__title-ja">発表される皆様へ</h2>
       <p>口頭、ポスターの二つの形式で発表を行います。たくさんの発表を募集いたします。奮ってご参加ください。</p>
       <p>発表を希望される方は、必ず
@@ -86,30 +123,32 @@
       <p>発表の演者は、日本プランクトン学会もしくは日本ベントス学会の会員に限ります。発表は一人一題に限ります。演者以外の共同発表者には、発表の件数制限はなく、また、両学会員でなくてもかまいません</p>
       <p>発表形式は演者の希望を優先しますが、会場とプログラム編成上の都合で変更していただく場合がございます。</p>
     </div>
-    <div class="content-box">
-      <h2 class="content__title-en" id="access">Oral Presentation</h2>
+    <div id="oral_presentation" class="content-box">
+      <h2 class="content__title-en">Oral Presentation</h2>
       <h2 class="content__title-ja">口頭発表</h2>
       <p>1題15分（発表12分、質疑応答3分）を予定しています。使用機材については、随時更新します。</p>
       <p>※両学会ともに、学部生・大学院生を対象とした口頭発表賞を選考し、表彰します。</p>
     </div>
-    <div class="content-box">
+    <div id="poster_presentation" class="content-box">
       <h2 class="content__title-en">Poster Presentation</h2>
       <h2 class="content__title-ja">ポスター発表</h2>
       <p>ポスターは普通のA0サイズで作成してください。</p>
     </div>
-    <div class="content-box">
+    <div id="presentations_outline" class="content-box">
       <h2 class="content__title-en">Submission of presentation's outline</h2>
-      <h2 class="content__title-ja">ポスター発表</h2>
+      <h2 class="content__title-ja">講演要旨の提出</h2>
       <p>口頭発表およびポスター発表の演者は、以下の要領に従って講演要旨を作成し、PDF形式で保存した後、E-mailに添付して
         <span class="emphasis">7月31日（火）</span>までに大会事務局（plaben2018@gmail.com）に送信してください。</p>
-      <p>原稿はA4版1ページとし、上3cm、下・左・右に2cmの余白をとって下さい</p>
-      <p>演題はゴシック系のフォント12ポイントを使用し、要旨の上中央に配置してください。演題の下は1行空けてから、氏名（所属）をゴシック系のフォント10ポイントを用い、行の中央に配置してください。共同研究者の氏名（所属）も合わせて記載してください。</p>
-      <p>演題はゴシック系のフォント12ポイントを使用し、要旨の上中央に配置してください。演題の下は1行空けてから、氏名（所属）をゴシック系のフォント10ポイントを用い、行の中央に配置してください。共同研究者の氏名（所属）も合わせて記載してください</p>
-      <p>図表は載せられますが、色は白黒となります。</p>
-      <p>最後に著者（所属）と演題の英語表現を左揃えの2～4行以内でお書きください。</p>
+      <ul class="subscription__bank_section">
+          <li >原稿はA4版1ページとし、上3cm、下・左・右に2cmの余白をとって下さい</li >
+          <li >演題はゴシック系のフォント12ポイントを使用し、要旨の上中央に配置してください。演題の下は1行空けてから、氏名（所属）をゴシック系のフォント10ポイントを用い、行の中央に配置してください。共同研究者の氏名（所属）も合わせて記載してください。</li >
+          <li >演題はゴシック系のフォント12ポイントを使用し、要旨の上中央に配置してください。演題の下は1行空けてから、氏名（所属）をゴシック系のフォント10ポイントを用い、行の中央に配置してください。共同研究者の氏名（所属）も合わせて記載してください</li >
+          <li >図表は載せられますが、色は白黒となります。</li >
+          <li >最後に著者（所属）と演題の英語表現を左揃えの2～4行以内でお書きください。</li >
+      </ul>
     </div>
   </div>
-  <footer></footer id='footer'>
+  <footer id='footer'></footer>
   <script src='script/base.js'></script>
 </body>
 

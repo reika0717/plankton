@@ -17,58 +17,95 @@
   <header>
     <nav id='global-nav'>
       <ul class='global-nav__wrapper'>
-        <a class='nav__list-parent' href='index.html'>HOME</li>
-          <a class='nav__list-parent nav__toggle' href='venue.html'>
-            <span>大会会場</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>会場</li>
-              <li>アクセス</li>
-              <li>バスのご案内</li>
-              <li>キャンパスマップ</li>
-            </ul>
-          </a>
-          <a href='program.html' class='nav__list-parent nav__toggle'>
-            <span>大会プログラム</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>大会日程</li>
-              <li>基調講演</li>
-              <li>公開シンポジウム</li>
-              <li>自由集会</li>
-              <li>若手の会</li>
-            </ul>
-          </a>
-          <a href='subscription.html' class='nav__list-parent nav__toggle'>
-            <span>参加・発表申込</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>大会参加費</li>
-              <li>事前申込</li>
-              <li>当日申込</li>
-            </ul>
-          </a>
-          <a href="announce.html" class='nav__list-parent nav__toggle'>
-            <span>発表される皆様へ</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>発表される皆様へ</li>
-              <li>口頭発表</li>
-              <li>ポスター発表</li>
-              <li>講演要旨の提出</li>
-            </ul>
-          </a>
+        <li><a class='nav__list-parent' href='index.html'>HOME</a></li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='venue.html' class="main__title">大会会場</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="venue.html#venue">会場</a>
+            </li>
+            <li>
+              <a href="venue.html#access">アクセス</a>
+            </li>
+            <li>
+              <a href="venue.html#bus_guide">バスのご案内</a>
+            </li>
+            <li>
+              <a href="venue.html#campus_map">キャンパスマップ</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='program.html' class="main__title">大会プログラム</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="program.html#conference_program">大会日程</a>
+            </li>
+            <li>
+              <a href="program.html#keynote_speech">基調講演</a>
+            </li>
+            <li>
+              <a href="program.html#public_symposium">公開シンポジウム・自由集会</a>
+            </li>
+            <li>
+              <a href="program.html#young_member_meeting">若手の会</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='subscription.html' class="main__title">参加・発表申込</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="subscription.html#registration">大会参加費</a>
+            </li>
+            <li>
+              <a href="subscription.html#pre_register">事前申込</a>
+            </li>
+            <li>
+              <a href="subscription.html#register_on_the_day">当日申込</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='announce.html' class="main__title">発表される皆様へ</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="announce.html#annouce">発表される皆様へ</a>
+            </li>
+            <li>
+              <a href="announce.html#oral_presentation">口頭発表</a>
+            </li>
+            <li>
+              <a href="announce.html#poster_presentation">ポスター発表</a>
+            </li>
+            <li>
+              <a href="announce.html#presentations_outline">講演要旨の提出</a>
+            </li>
+          </ul>
+        </li>
+        <li>
           <a href='deadline.html' class='nav__list-parent'>各種締切り日</a>
+        </li>
+        <li>
           <a href='guide.html' class='nav__list-parent'>観光案内</a>
-          <a href='log.html' class='nav__list-parent nav__toggle double-line'>
-            <span>大会実行委員会
-              <br />大会ページ更新履歴</span>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-              <li>大会実行委員会</li>
-              <li>更新履歴</li>
-            </ul>
-          </a>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='log.html' class="main__title">大会実行委員会
+            <br>大会ページ更新履歴</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="log.html#conference_exective_committee">大会実行委員会</a>
+            </li>
+            <li>
+              <a href="log.html#change_log">更新履歴</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </header>
@@ -77,7 +114,7 @@
     <h1>参加・発表申し込み</h1>
   </div>
   <div class="content-box__wrapper">
-    <div class="content-box">
+    <div id="registration" class="content-box">
       <h2 class="content__title-en" id="access">Registration</h2>
       <h2 class="content__title-ja">参加・発表申込</h2>
       <div class="sub-title__wrapper">
@@ -122,9 +159,9 @@
       <p>※納入された参加費および懇親会費などは、理由の如何を問わず、原則として一切お返しいたしません。</p>
       <p>※欠席の方には後日、講演要旨集をお送りいたします。</p>
     </div>
-    <div class="content-box">
+    <div id="pre_register" class="content-box">
       <h2 class="content__title-en" id="access">Pre Register</h2>
-      <h2 class="content__title-ja">事前申し込み</h2>
+      <h2 class="content__title-ja">事前申込</h2>
       <p>事前申込での大会参加費・懇親会費の振込み締切日は、
         <span class='emphasis'>6月30日（土）</span>です。</p>
       <p>
@@ -133,7 +170,7 @@
         <span>必ず事前申込で参加申込</span>を行ってください。</p>
       <p>※お近くの金融機関より、以下の口座に払込願います。</p>
       <p>※本年度の合同大会は銀行振込となりますので、ご注意ください。</p>
-      <ul>
+      <ul class="subscription__bank_section">
         <li>**銀行</li>
         <li>**支店</li>
         <li>普通預金</li>
@@ -145,7 +182,7 @@
       <p>※払込手数料はご負担下さい。</p>
       <p>※トラブルやエラーなど、何らかの要因で振込ができない場合は、その旨を大会事務局にご連絡ください。</p>
     </div>
-    <div class="content-box">
+    <div id="register_on_the_day" class="content-box">
       <h2 class="content__title-en">Register on the Day</h2>
       <h2 class="content__title-ja">当日申込</h2>
       <p>
@@ -153,7 +190,7 @@
       <p>また、懇親会に参加希望の方は、懇親会費（***円）も併せてお支払いください。</p>
     </div>
   </div>
-  <footer></footer id='footer'>
+  <footer id='footer'></footer>
   <script src='script/base.js'></script>
 </body>
 

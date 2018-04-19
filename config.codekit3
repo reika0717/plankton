@@ -16,6 +16,80 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/src\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/.gitignore",
+		"oF": 0
+		},
+	"\/src\/announce.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/announce.html",
+		"oF": 0
+		},
+	"\/src\/assets\/file1.JPG": {
+		"ft": 16384,
+		"iS": 691439,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/assets\/file2.JPG": {
+		"ft": 16384,
+		"iS": 384156,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/assets\/file3.JPG": {
+		"ft": 16384,
+		"iS": 331028,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/assets\/file4.JPG": {
+		"ft": 16384,
+		"iS": 325238,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/assets\/file5.JPG": {
+		"ft": 16384,
+		"iS": 405202,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/assets\/logo.jpg": {
+		"ft": 16384,
+		"iS": 69280,
+		"oA": 0,
+		"oAP": "\/src\/assets\/logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/src\/assets\/logo.png": {
 		"ft": 32768,
 		"iS": 554124,
@@ -37,12 +111,113 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/src\/assets\/main-bg.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/assets\/main-bg.tif",
+		"oF": 0
+		},
 	"\/src\/assets\/New Tab.htm": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/src\/assets\/New Tab.htm",
 		"oF": 0
+		},
+	"\/src\/assets\/plankton_img1.jpg": {
+		"ft": 16384,
+		"iS": 107032,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img1.png": {
+		"ft": 32768,
+		"iS": 70405,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img2.jpg": {
+		"ft": 16384,
+		"iS": 32446,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img2.png": {
+		"ft": 32768,
+		"iS": 19460,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img3.jpg": {
+		"ft": 16384,
+		"iS": 19984,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img3.png": {
+		"ft": 32768,
+		"iS": 13912,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img4.jpg": {
+		"ft": 16384,
+		"iS": 256474,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img5.png": {
+		"ft": 32768,
+		"iS": 124154,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/sea-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/assets\/sea-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/assets\/top-bg.png": {
 		"ft": 32768,
@@ -55,6 +230,43 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/top_title.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/assets\/top_title.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/base-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/src\/base-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/src\/base.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/src\/base-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/src\/deadline.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/deadline.html",
+		"oF": 0
+		},
 	"\/src\/footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -62,11 +274,11 @@
 		"oAP": "\/src\/footer.html",
 		"oF": 0
 		},
-	"\/src\/header.html": {
+	"\/src\/guide.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/header.html",
+		"oAP": "\/src\/guide.html",
 		"oF": 0
 		},
 	"\/src\/index.html": {
@@ -74,6 +286,26 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/src\/index.html",
+		"oF": 0
+		},
+	"\/src\/log.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/log.html",
+		"oF": 0
+		},
+	"\/src\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/src\/node_modules",
+		"oF": 0
+		},
+	"\/src\/program.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/program.html",
 		"oF": 0
 		},
 	"\/src\/script\/base-min.js": {
@@ -119,6 +351,29 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/style\/normalize.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/src\/style\/normalize-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/src\/style\/normalize.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/src\/style\/normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/style\/normalizer-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -138,6 +393,20 @@
 		"oAP": "\/src\/style\/normalizer-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/src\/subscription.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/subscription.html",
+		"oF": 0
+		},
+	"\/src\/venue.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/venue.html",
+		"oF": 0
 		}
 	},
 "hooks": [

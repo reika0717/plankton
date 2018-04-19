@@ -1,1 +1,1 @@
-$(function(){$(".scroll-btn").on("click",function(t){t.preventDefault(),$("html, body").animate({scrollTop:$($(this).attr("href")).offset().top},500,"linear")})});
+$(function(){$(".scroll-btn").on("click",function(t){t.preventDefault(),$("html, body").animate({scrollTop:$($(this).attr("href")).offset().top},500,"linear")}),$("#footer").load("../src/footer.html")});
