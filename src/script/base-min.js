@@ -1,1 +1,1 @@
-$(function(){$(".scroll-btn").on("click",function(t){t.preventDefault(),$("html, body").animate({scrollTop:$($(this).attr("href")).offset().top},500,"linear")})});
+$(function(){$(".scroll-btn").on("click",function(t){t.preventDefault(),$("html, body").animate({scrollTop:$($(this).attr("href")).offset().top},500,"linear")}),$('a[href^="#"]').click(function(){var t=500,o=$(this).attr("href"),n=$("#"==o||""==o?"html":o),l=n.offset().top;return $("html, body").animate({scrollTop:l},500,"swing"),!1})});
