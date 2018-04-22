@@ -125,84 +125,66 @@
 		"oAP": "\/src\/assets\/New Tab.htm",
 		"oF": 0
 		},
-	"\/src\/assets\/plankton_img1.jpg": {
-		"ft": 16384,
-		"iS": 107032,
-		"oA": 0,
-		"oAP": "\/src\/assets\/plankton_img1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/assets\/plankton_img1.png": {
-		"ft": 32768,
-		"iS": 70405,
-		"oA": 0,
-		"oAP": "\/src\/assets\/plankton_img1.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/assets\/plankton_img2.jpg": {
-		"ft": 16384,
-		"iS": 32446,
-		"oA": 0,
-		"oAP": "\/src\/assets\/plankton_img2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/src\/assets\/plankton_img2.png": {
-		"ft": 32768,
-		"iS": 19460,
-		"oA": 0,
-		"oAP": "\/src\/assets\/plankton_img2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/assets\/plankton_img3.jpg": {
-		"ft": 16384,
-		"iS": 19984,
-		"oA": 0,
-		"oAP": "\/src\/assets\/plankton_img3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/src\/assets\/plankton_img3.png": {
-		"ft": 32768,
-		"iS": 13912,
-		"oA": 0,
-		"oAP": "\/src\/assets\/plankton_img3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/assets\/plankton_img4.jpg": {
-		"ft": 16384,
-		"iS": 256474,
-		"oA": 0,
-		"oAP": "\/src\/assets\/plankton_img4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/src\/assets\/plankton_img5.png": {
 		"ft": 32768,
 		"iS": 124154,
 		"oA": 0,
 		"oAP": "\/src\/assets\/plankton_img5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img_1.png": {
+		"ft": 32768,
+		"iS": 241234,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img_2.png": {
+		"ft": 32768,
+		"iS": 278972,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img_3.png": {
+		"ft": 32768,
+		"iS": 258646,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img_3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img_4.png": {
+		"ft": 32768,
+		"iS": 64633,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img_4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img_5.png": {
+		"ft": 32768,
+		"iS": 358310,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img_5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -230,15 +212,16 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/top_title.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/src\/assets\/top_title.svg",
+	"\/src\/assets\/top_title.png": {
+		"ft": 32768,
+		"iS": 41402,
+		"oA": 0,
+		"oAP": "\/src\/assets\/top_title.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oT": 1,
+		"q": 100
 		},
 	"\/src\/base-min.css": {
 		"aP": 1,

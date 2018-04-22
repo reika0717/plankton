@@ -8,9 +8,11 @@ $sub-color2: #90A4AE
 $sub-color3: #F7B633
 $dark-green: #0F5665
 $letter-gray: #555
+$green: rgba(95, 158, 160, 0.9)
 
 #body
   font-family: 'Work Sans', sans-serif
+  background: #f9f8f5
   //font-family: "Sawarabi Mincho"
 
 //共通
@@ -196,7 +198,6 @@ footer
   overflow: hidden
   .home__wrapper
     background-color: black
-    //background-color: #0d1b38
     width: 100vw
     .home__main
       width: 1024px
@@ -209,28 +210,32 @@ footer
         width: 590px
         margin-left: -33px
         z-index: 2
-      .top__bg1
-        width: 620px
-        position: absolute
-        z-index: 1
-        top: 51px
-        left: -149px
-        transform: scale(-1, 1)
-      .top__bg-plankton
-        position: absolute
-      .top__bg2
-        width: 476px
-        right: 100px
-        top: 0
-      .top__bg3
-        width: 264px
-        top: 134px
-        right: -93px
-      .top__bg4
+      .plankton_img
+        position: absolute        
+      .plankton_img_1
+        width: 560px
+        top: -59px
+        right: -120px
+        transform: scale(-1, 1) rotate(-43deg)
+      .plankton_img_2
+        width: 686px
+        left: -450px
+        top: 41px
+        transform: rotate(3deg)
+      .plankton_img_3
+        bottom: -167px
+        width: 654px
+        transform: rotate(115deg)
+        left: -250px
+      .plankton_img_4
         width: 340px
-        transform: rotate(20deg)
-        right: 138px
-        top: 483px
+        transform: rotate(-110deg)
+        right: 371px
+        top: 133px
+      .plankton_img_5
+        width: 750px
+        right: -153px
+        bottom: -80px
       .scroll-btn
         color: white
         font-size: 14px

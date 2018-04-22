@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:200");
 @import url("normalize.css");
 #body {
-  font-family: 'Work Sans', sans-serif; }
+  font-family: 'Work Sans', sans-serif;
+  background: #f9f8f5; }
 
 .content__title {
   margin-top: 20px; }
@@ -204,28 +205,32 @@ footer #footer__inner {
         width: 590px;
         margin-left: -33px;
         z-index: 2; }
-      .content__wrapper .home__wrapper .home__main .top__bg1 {
-        width: 620px;
-        position: absolute;
-        z-index: 1;
-        top: 51px;
-        left: -149px;
-        transform: scale(-1, 1); }
-      .content__wrapper .home__wrapper .home__main .top__bg-plankton {
+      .content__wrapper .home__wrapper .home__main .plankton_img {
         position: absolute; }
-      .content__wrapper .home__wrapper .home__main .top__bg2 {
-        width: 476px;
-        right: 100px;
-        top: 0; }
-      .content__wrapper .home__wrapper .home__main .top__bg3 {
-        width: 264px;
-        top: 134px;
-        right: -93px; }
-      .content__wrapper .home__wrapper .home__main .top__bg4 {
+      .content__wrapper .home__wrapper .home__main .plankton_img_1 {
+        width: 560px;
+        top: -59px;
+        right: -120px;
+        transform: scale(-1, 1) rotate(-43deg); }
+      .content__wrapper .home__wrapper .home__main .plankton_img_2 {
+        width: 686px;
+        left: -450px;
+        top: 41px;
+        transform: rotate(3deg); }
+      .content__wrapper .home__wrapper .home__main .plankton_img_3 {
+        bottom: -167px;
+        width: 654px;
+        transform: rotate(115deg);
+        left: -250px; }
+      .content__wrapper .home__wrapper .home__main .plankton_img_4 {
         width: 340px;
-        transform: rotate(20deg);
-        right: 138px;
-        top: 483px; }
+        transform: rotate(-110deg);
+        right: 371px;
+        top: 133px; }
+      .content__wrapper .home__wrapper .home__main .plankton_img_5 {
+        width: 750px;
+        right: -153px;
+        bottom: -80px; }
       .content__wrapper .home__wrapper .home__main .scroll-btn {
         color: white;
         font-size: 14px;
