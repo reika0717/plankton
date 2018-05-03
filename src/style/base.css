@@ -228,6 +228,10 @@ footer #footer__inner {
     background-color: black;
     width: 100vw; }
     .content__wrapper .home__wrapper .home__main {
+      position: absolute !important;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
       width: 1024px;
       height: 100vh;
       margin: 0 auto;
@@ -312,7 +316,8 @@ footer #footer__inner {
     opacity: 0; } }
 
 .program_pdf_section {
-  margin-top: 16px; }
+  margin-top: 16px;
+  margin-left: 21px; }
   .program_pdf_section .program_pdf {
     text-decoration: none;
     line-height: 1.7em;
