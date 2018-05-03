@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/earlyaccess/sawarabimincho.css")
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:200')
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:500')
 @import url('normalize.css')
 
 $main-color: #37474F
@@ -21,13 +22,15 @@ $green: rgba(95, 158, 160, 0.9)
 .content__title-en
   font-family: 'Work Sans', sans-serif
   font-size: 50px
+  font-weight: 200
   text-align: center
   margin-top: 12px
   margin-bottom: 3px
 .content__title-ja
-  font-family: "Sawarabi Mincho"
   text-align: center
-  font-size: .8em
+  font-size: 1.1em
+  opacity: 0.8
+  margin-top: 10px
   margin-bottom: 40px
 .content-box__wrapper
   width: 800px
@@ -42,14 +45,28 @@ $green: rgba(95, 158, 160, 0.9)
     justify-content: center
     align-items: center
     opacity: .3
+  &.deadline
+    p
+      line-height: 1.7em
+      font-size: 16px
+      margin-left: 20px
+  &.log
+    ul
+      li
+        line-height: 1.7em
+        font-size: 16px
+        margin-left: 20px
 .content-box
   border-top: 1px solid rgba(0, 0, 0, .1)
   width: 800px
   margin: 0 auto
   margin-top: 110px
   p
-    line-height: 1.5em
-    font-size: 17px
+    line-height: 1.7em
+    font-size: 16px
+    margin-left: 20px
+  .content-box__article
+    margin-bottom: 80px
 .sub-title__wrapper
   .content__title-small
     color: rgba(95, 158, 160, 0.9) 
@@ -74,8 +91,14 @@ table, th, td
   padding: 5px
 tr:nth-child(even)
   background: rgba(0, 0, 0, .05)
-.emphasis
-  color: red
+.emphasis_underline
+  font-weight: 600
+  border-bottom: 1px solid black
+.title_underline
+  font-weight: 600
+  display: inline-block
+  border-bottom: 1px solid black
+  line-height: 1.2em !important
 .content__header-section
   width: 100vw
   height: 79px
@@ -97,15 +120,25 @@ tr:nth-child(even)
       margin-bottom: 45px
   &.bus
     margin-top: 27px
+    margin-left: 23px
     li
       line-height: 2.4em
       &:before
         content: '\f207'
         font-family: FontAwesome
         margin-right: 8px
-        color: rgba(95, 158, 160, 0.9)   
+        color: rgba(95, 158, 160, 0.9)
+  &.campus_map
+    margin-left: 39px
+    margin-top: 4px
+    li
+      list-style: inherit
+  &.campus_map_2
+    margin-left: 21px
+    margin-top: 4px
   &.access
     margin-top: 27px
+    margin-left: 23px
     li
       line-height: 2em
       &:before
@@ -114,7 +147,7 @@ tr:nth-child(even)
         margin-right: 8px
         color: rgba(95, 158, 160, 0.9)
 ol,ul
-  line-height: 1.5em    
+  line-height: 1.7em    
 
 //header
 header
@@ -140,7 +173,7 @@ header
       .nav__list-parent
         font-size: 14px
         color: white
-        line-height: 1.5em
+        line-height: 1.7em
         display: inline-block
         padding: 28px 15px
         position: relative
@@ -223,9 +256,9 @@ footer
         top: 41px
         transform: rotate(3deg)
       .plankton_img_3
-        bottom: -167px
-        width: 654px
-        transform: rotate(115deg)
+        bottom: -97px
+        width: 472px
+        transform: scale(-1, 1)
         left: -250px
       .plankton_img_4
         width: 340px
@@ -286,11 +319,33 @@ footer
   margin-top: 16px
   .program_pdf
     text-decoration: none
-    line-height: 1.5em
+    line-height: 1.7em
     font-size: 15px
+#young_member_meeting
+  .program__table
+    td
+      text-align: left
+      padding-left: 10px
+    .young_member_meeting__table-title
+      width: 158px
+    .young_member_meeting__table-schedule
+      display: flex
+      &:nth-of-type(1)
+        margin-bottom: 13px    
+      dt
+        margin-right: 20px
+      .young_member_meeting__table-schedule-discription
+        display: flex
+        flex-direction: column
+        text-align: left
+.table__comments
+  margin-left: 0 !important
+  font-size: .9em !important
+  color: gray
+
 //subscription
 .subscription__bank_section
-  margin: 30px 0 30px 20px
+  margin: 30px 0 30px 44px
 //venue
 .file_1,
 .file_2,
@@ -313,7 +368,6 @@ footer
 
 //subscription
 .registration_table
-  tr,td
-    background-color: white  
   .rowspan_2
     vertical-align: middle
+    background: #f9f8f5
