@@ -16,6 +16,14 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.vscode\/ftp-sync.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.vscode\/ftp-sync-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/src\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -30,9 +38,9 @@
 		"oAP": "\/src\/announce.html",
 		"oF": 0
 		},
-	"\/src\/assets\/file1.JPG": {
+	"\/src\/assets\/file1.jpg": {
 		"ft": 16384,
-		"iS": 691439,
+		"iS": 290016,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file1.jpg",
 		"oF": 0,
@@ -191,6 +199,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/plankton_img_6.png": {
+		"ft": 32768,
+		"iS": 9409597,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img_6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img_7.png": {
+		"ft": 32768,
+		"iS": 2016915,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img_7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/plankton_img_8.png": {
+		"ft": 32768,
+		"iS": 1268960,
+		"oA": 0,
+		"oAP": "\/src\/assets\/plankton_img_8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/sea-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -327,6 +368,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/src\/script\/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/script\/three.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/script\/three.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
