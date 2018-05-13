@@ -70,7 +70,7 @@ $(function () {
 
       // 画像のピクセル数により位置決め
       const SIZE = 1000 //particleが形どる立方体のサイズ
-      for (var x = 0; x < 2000 + 1; x++) {
+      for (var x = 0; x < 2000; x++) {
         // ランダム配置
         var px2 = SIZE * (Math.random() - 0.4);
         var py2 = SIZE * (Math.random() - 0.4);
@@ -142,15 +142,15 @@ $(function () {
   function render() {
     // カメラ制御
     camera.position.x += (500 - camera.position.x);
-    camera.position.y += (500 - camera.position.y) * 0.04;
+    camera.position.y += (500 - camera.position.y);
     camera.lookAt(scene.position);
 
     // パーティクルの移動
     geometry.verticesNeedUpdate = true; // ジオメトリーの位置更新
 
     // パーティクル全体の移動
-    // wrapper.rotation.x += 0.0001;
-    wrapper.rotation.x -= 0.0002;
+    wrapper.rotation.z -= 0.0001;
+    wrapper.rotation.x += 0.0002;
     renderer.render(scene, camera);
   }
 
