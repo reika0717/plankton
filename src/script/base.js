@@ -110,7 +110,7 @@ $(function () {
 
     // PointCloudMaterial
     materials = new THREE.PointsMaterial({
-      size: 4,
+      size: 6,
       map: createCircleTexture('white', 8),
       blending: THREE.AdditiveBlending,
       depthTest: true,
