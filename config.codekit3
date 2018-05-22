@@ -7,7 +7,7 @@
 		"uuidString": "129189B3-239B-4E1B-A302-CE5214130A7A"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -38,9 +38,17 @@
 		"oAP": "\/src\/announce.html",
 		"oF": 0
 		},
+	"\/src\/application.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/application.xlsx",
+		"oF": 0
+		},
 	"\/src\/assets\/file1.jpg": {
 		"ft": 16384,
 		"iS": 290016,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file1.jpg",
 		"oF": 0,
@@ -51,6 +59,7 @@
 	"\/src\/assets\/file2.JPG": {
 		"ft": 16384,
 		"iS": 384156,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file2.jpg",
 		"oF": 0,
@@ -61,6 +70,7 @@
 	"\/src\/assets\/file3.JPG": {
 		"ft": 16384,
 		"iS": 331028,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file3.jpg",
 		"oF": 0,
@@ -71,6 +81,7 @@
 	"\/src\/assets\/file4.JPG": {
 		"ft": 16384,
 		"iS": 325238,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file4.jpg",
 		"oF": 0,
@@ -81,6 +92,7 @@
 	"\/src\/assets\/file5.JPG": {
 		"ft": 16384,
 		"iS": 405202,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file5.jpg",
 		"oF": 0,
@@ -91,6 +103,7 @@
 	"\/src\/assets\/logo.jpg": {
 		"ft": 16384,
 		"iS": 69280,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/logo.jpg",
 		"oF": 0,
@@ -471,7 +484,8 @@
 	"creationDate": 543939628,
 	"displayValue": "plankton",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_teal"
+	"iconImageName": "brackets_teal",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2274,6 +2288,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
