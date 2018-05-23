@@ -29,15 +29,41 @@ body .content-box__wrapper {
   width: 800px;
   margin: -30px auto 0;
   color: #333; }
-  body .content-box__wrapper.guide {
-    text-align: center;
-    font-size: 46px;
-    margin-top: 56px;
-    height: 100vh;
+  body .content-box__wrapper.guide .guide_table {
+    width: 787px;
+    margin-left: 15px;
+    border: none; }
+    body .content-box__wrapper.guide .guide_table .title {
+      width: 421px; }
+    body .content-box__wrapper.guide .guide_table td {
+      border: none;
+      text-align: left; }
+    body .content-box__wrapper.guide .guide_table tr:nth-child(even) {
+      background: transparent; }
+  body .content-box__wrapper.guide .climing_way_list {
     display: flex;
-    justify-content: center;
     align-items: center;
-    opacity: .3; }
+    margin-top: 17px;
+    margin-bottom: 4px; }
+    body .content-box__wrapper.guide .climing_way_list .icon_foot {
+      width: 25px;
+      height: 25px;
+      margin-left: 23px; }
+    body .content-box__wrapper.guide .climing_way_list .climing_way_name {
+      font-weight: 600; }
+  body .content-box__wrapper.guide .accommodation_list {
+    margin-left: 15px;
+    margin-bottom: 15px; }
+    body .content-box__wrapper.guide .accommodation_list dt {
+      margin-bottom: 10px; }
+      body .content-box__wrapper.guide .accommodation_list dt a {
+        color: #333;
+        font-weight: 600; }
+    body .content-box__wrapper.guide .accommodation_list dd p {
+      line-height: 1.3em;
+      color: gray;
+      font-size: 14.5px;
+      margin-bottom: 5px; }
   body .content-box__wrapper.deadline p {
     line-height: 1.7em;
     font-size: 16px;
@@ -95,6 +121,9 @@ body .title_underline {
   display: inline-block;
   border-bottom: 1px solid black;
   line-height: 1.2em !important; }
+  body .title_underline.guide {
+    font-size: 16px;
+    margin-bottom: 5px; }
 
 body .content__header-section {
   width: 100vw;
@@ -356,6 +385,10 @@ footer #footer__inner {
 
 .table__comments {
   margin-left: 0 !important;
+  font-size: .9em !important;
+  color: gray; }
+
+.gray__comments {
   font-size: .9em !important;
   color: gray; }
 

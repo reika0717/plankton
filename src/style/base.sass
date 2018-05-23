@@ -38,14 +38,42 @@ body
     margin: -30px auto 0
     color: #333
     &.guide
-      text-align: center
-      font-size: 46px
-      margin-top: 56px
-      height: 100vh
-      display: flex
-      justify-content: center
-      align-items: center
-      opacity: .3
+      .guide_table
+        width: 787px
+        margin-left: 15px
+        border: none
+        .title
+          width: 421px
+        td
+          border: none
+          text-align: left
+        tr:nth-child(even)
+          background: transparent
+      .climing_way_list
+        display: flex
+        align-items: center
+        margin-top: 17px
+        margin-bottom: 4px
+        .icon_foot
+          width: 25px
+          height: 25px
+          margin-left: 23px
+        .climing_way_name
+          font-weight: 600
+      .accommodation_list
+        margin-left: 15px
+        margin-bottom: 15px
+        dt
+          margin-bottom: 10px
+          a
+            color: #333
+            font-weight: 600
+        dd
+          p
+            line-height: 1.3em
+            color: gray
+            font-size: 14.5px
+            margin-bottom: 5px
     &.deadline
       p
         line-height: 1.7em
@@ -100,6 +128,9 @@ body
     display: inline-block
     border-bottom: 1px solid black
     line-height: 1.2em !important
+    &.guide
+      font-size: 16px
+      margin-bottom: 5px
   .content__header-section
     width: 100vw
     height: 79px
@@ -356,6 +387,9 @@ footer
         text-align: left
 .table__comments
   margin-left: 0 !important
+  font-size: .9em !important
+  color: gray
+.gray__comments
   font-size: .9em !important
   color: gray
 
