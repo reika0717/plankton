@@ -38,6 +38,9 @@ body
     margin: -30px auto 0
     color: #333
     &.guide
+      .guide_comment
+        line-height: 1.7em
+        font-size: 16px
       .guide_table
         width: 787px
         margin-left: 15px
@@ -74,6 +77,18 @@ body
             color: gray
             font-size: 14.5px
             margin-bottom: 5px
+    &.venue
+      .map__wrapper
+        display: flex
+        justify-content: center
+        a
+          display: flex
+          justify-content: center
+        .to_hachioji
+          width: 90%
+          height: 90%
+          margin-top: 25px
+          margin-bottom: 45px
     &.deadline
       p
         line-height: 1.7em
@@ -106,6 +121,8 @@ body
       letter-spacing: 1px
       &.deadline
         margin-top: 110px
+      &.guide
+        margin-top: 55px
   table
     margin-top: 10px
   table, th, td
