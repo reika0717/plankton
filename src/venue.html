@@ -52,10 +52,10 @@
               <a href="program.html#conference_program">大会日程</a>
             </li>
             <li>
-              <a href="program.html#keynote_speech">基調講演</a>
+              <a href="program.html#public_symposium">公開シンポジウム・自由集会</a>
             </li>
             <li>
-              <a href="program.html#public_symposium">公開シンポジウム・自由集会</a>
+              <a href="program.html#conference_dinner">懇親会</a>
             </li>
             <li>
               <a href="program.html#young_member_meeting">若手の会</a>
@@ -96,10 +96,19 @@
           </ul>
         </li>
         <li>
-          <a href='deadline.html' class='nav__list-parent'>各種締切り日</a>
+          <a href='deadline.html' class='nav__list-parent'>各種締切日</a>
         </li>
-        <li>
-          <a href='guide.html' class='nav__list-parent'>宿泊・観光案内</a>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='guide.html' class='main__title'>宿泊・観光案内</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="guide.html#tourist_information">観光案内</a>
+            </li>
+            <li>
+              <a href="guide.html#accomodation_guide">宿泊先のご案内</a>
+            </li>
+          </ul>
         </li>
         <li class='nav__list-parent nav__toggle'>
           <a href='log.html' class="main__title">大会実行委員会
@@ -121,7 +130,7 @@
   <div class="content__main-title">
     <h1>大会会場</h1>
   </div>
-  <div class="content-box__wrapper">
+  <div class="content-box__wrapper venue">
     <div id="venue" class="content-box">
       <h2 class="content__title-en" id="access">Venue</h2>
       <h2 class="content__title-ja">会場</h2>
@@ -130,13 +139,29 @@
     <div id="access" class="content-box">
       <h2 class="content__title-en" id="access">Access</h2>
       <h2 class="content__title-ja">アクセス</h2>
-      <div class="sub-title__wrapper">
-        <h3 class="content__title-small">最寄駅から大学まで</h3>
-      </div>
       <p class="emphasis_underline">創価大学には一般利用者用の駐車場がありません。公共交通機関でお越しくださいますようお願いします。</p>
+      <br>
+      <br>
+      <div class="sub-title__wrapper">
+        <h3 class="content__title-small">JR八王子駅・京王八王子駅まで</h3>
+      </div>
+      <p>JR八王子駅には中央線、横浜線、相模線、八高線、川越線が停車します。京王八王子駅は京王電鉄京王線（私鉄）の終着駅です。</p>
+      <br>
+      <p>JR八王子駅まで</p>
+      <p>新宿からJR中央線で約40分</p>
+      <p>東海道新幹線の新横浜駅からJR横浜線で約45分</p>
+      <br>
+      <p>京王八王子駅まで</p>
+      <p>新宿から京王線で約40分</p>
+      <div class="map__wrapper">
+        <img src="assets/to_hachioji.jpg" class="to_hachioji" alt="">
+      </div>
+      <div class="sub-title__wrapper">
+        <h3 class="content__title-small">駅から大学まで</h3>
+      </div>
       <p>創価大学はJR八王子駅、京王八王子駅から北へ4 kmのところにあります。</p>
-      <p>JR八王子駅へは新宿からJR中央線で約40分、あるいは、東海道新幹線の新横浜駅からJR横浜線で約45分です。京王八王子へは新宿から京王線（私鉄）で約40分です。</p>
-      <p>JR八王子駅北口、京王八王子駅から西東京バスやタクシーをご利用ください。バスの詳細はバスのご案内をご覧ください。</p>
+      <p>JR八王子駅北口もしくは京王八王子駅から西東京バスやタクシーをご利用ください。</p>
+      <p>バスの詳細は<a href="#bus_guide">バスのご案内</a>をご覧ください。</p>
       <ul class="common__list access">
         <li>JR八王子駅からバス/タクシーで約20分</li>
         <li>京王八王子駅からバス/タクシーで約25分</li>
@@ -150,13 +175,17 @@
         <li>創価大学正門東京富士美術館行き</li>
         <li>創価大学循環</li>
         <li>創価大学栄光門行き（直通）</li>
-        <li>創価大学正門東京富士美術館行き</li>
       </ol>
-      <p>のいずれかのバスに乗車し、創価大正門東京富士美術館で下車してください。</p>
+      <p>のいずれかのバスに乗車し、<span class="emphasis_underline">創価大正門東京富士美術館で下車</span>してください。その後の停留所の、創価大学創大門、もしくは創価大学栄光門で下車しても構いません。各門から会場までのアクセスは以下の<a href="#campus_map">キャンパスマップ</a>をご覧ください。</p>
       <p>詳細は
         <a href="https://www.soka.ac.jp/access/#anchor19">創価大学HP</a>をご覧ください。</p>
+      <div class="map__wrapper">
+        <a href="assets/bus.gif" data-lightbox="map" data-title="バス路線図">
+          <img src="assets/bus.gif" alt="" class="to_hachioji">
+        </a>
+      </div>
       <!-- <p>大会開催期間9月9日（日）～9月11日（火）の受付時間周辺に創価大学に到着する八王子発、および京王八王子発のバス時刻表を作成しました。ご活用ください。</p> -->
-      <p>※他の時刻に発着するバスについては、
+      <p>※バスの発着時刻は、
         <a href='http://www.nisitokyobus.co.jp/'>西東京バスHP（http://www.nisitokyobus.co.jp/）</a>をご覧ください。</p>
     </div>
     <div id="campus_map" class="content-box">
@@ -166,21 +195,22 @@
         <div class="sub-title__wrapper">
           <h3 class="content__title-small">正門（東門）・創大門（北門）・栄光門（西門）から中央教育棟まで</h3>
         </div>
-        <p class="title_underline">正門から</p>
+        <p class="title_underline">正門から（図中1→2→3）</p>
         <ol class="common__list campus_map">
           <li>正門から直進</li>
           <li>突き当たりを左折して道なりに進む</li>
+          <li>横断歩道を渡って直進すると、左前方に中央教育棟が見える</li>
         </ol>
-        <p class="title_underline">創大門から</p>
+        <p class="title_underline">創大門から（図中A→B）</p>
         <ul class="common__list campus_map_2">
           <li>A. 創大門から道なりに進む</li>
           <li>B. 五叉路にて、中央教育棟にむかってまっすぐ上る道を進む</li>
         </ul>
-        <p class="title_underline">栄光門から</p>
+        <p class="title_underline">栄光門から（図中a）</p>
         <ul class="common__list campus_map_2">
           <li>a. 栄光門から直進すると左手に中央教育棟が見える</li>
         </ul>
-        <a href="assets/file1.JPG" data-lightbox="map" data-title="正門から中央教育棟まで">
+        <a href="assets/file1_big.png" data-lightbox="map" data-title="正門から中央教育棟まで">
           <img src="assets/file1.JPG" class="file_1" alt="">
         </a>
       </div>
@@ -190,7 +220,7 @@
       <p>各会場は以下の通りです。</p>
       <table>
         <tr>
-          <td>公開シンポジウム・基調講演</td>
+          <td>公開シンポジウム・閉会式</td>
           <td>AW303</td>
         </tr>
         <tr>
@@ -227,18 +257,18 @@
         </tr>
       </table>
       <div class="floor_map__wrapper">
-        <a href="assets/file2.JPG" data-lightbox="map" data-title="中央教育棟フロアマップ1F">
+        <a href="assets/file2_big.png" data-lightbox="map" data-title="中央教育棟フロアマップ1F">
           <img src="assets/file2.JPG" class="file_2" alt="">
         </a>
-        <a href="assets/file3.JPG" data-lightbox="map" data-title="中央教育棟フロアマップ3F">
+        <a href="assets/file3_big.png" data-lightbox="map" data-title="中央教育棟フロアマップ3F">
           <img src="assets/file3.JPG" class="file_3" alt="">
         </a>
       </div>
       <div class="floor_map__wrapper">
-        <a href="assets/file4.JPG" data-lightbox="map" data-title="中央教育棟フロアマップ4F">
+        <a href="assets/file4_big.png" data-lightbox="map" data-title="中央教育棟フロアマップ4F">
           <img src="assets/file4.JPG" class="file_4" alt="">
         </a>
-        <a href="assets/file5.JPG" data-lightbox="map" data-title="中央教育棟フロアマップ5F">
+        <a href="assets/file5_big.png" data-lightbox="map" data-title="中央教育棟フロアマップ5F">
           <img src="assets/file5.JPG" class="file_5" alt="">
         </a>
       </div>

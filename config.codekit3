@@ -7,7 +7,7 @@
 		"uuidString": "129189B3-239B-4E1B-A302-CE5214130A7A"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -15,14 +15,6 @@
 		"oA": 0,
 		"oAP": "\/.gitignore",
 		"oF": 0
-		},
-	"\/.vscode\/ftp-sync.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/.vscode\/ftp-sync-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"\/src\/.gitignore": {
 		"cB": 0,
@@ -38,9 +30,25 @@
 		"oAP": "\/src\/announce.html",
 		"oF": 0
 		},
+	"\/src\/application.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/application.xlsx",
+		"oF": 0
+		},
+	"\/src\/assets\/bus.gif": {
+		"ft": 4194304,
+		"iS": 100359,
+		"oA": 0,
+		"oAP": "\/src\/assets\/bus.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/src\/assets\/file1.jpg": {
 		"ft": 16384,
-		"iS": 290016,
+		"iS": 778798,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file1.jpg",
 		"oF": 0,
@@ -48,9 +56,21 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/src\/assets\/file1_big.png": {
+		"ft": 32768,
+		"iS": 6516450,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file1_big.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/file2.JPG": {
 		"ft": 16384,
 		"iS": 384156,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file2.jpg",
 		"oF": 0,
@@ -58,9 +78,21 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/src\/assets\/file2_big.png": {
+		"ft": 32768,
+		"iS": 493013,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file2_big.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/file3.JPG": {
 		"ft": 16384,
 		"iS": 331028,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file3.jpg",
 		"oF": 0,
@@ -68,9 +100,21 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/src\/assets\/file3_big.png": {
+		"ft": 32768,
+		"iS": 364771,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file3_big.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/file4.JPG": {
 		"ft": 16384,
 		"iS": 325238,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file4.jpg",
 		"oF": 0,
@@ -78,9 +122,21 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/src\/assets\/file4_big.png": {
+		"ft": 32768,
+		"iS": 341901,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file4_big.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/file5.JPG": {
 		"ft": 16384,
 		"iS": 405202,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/file5.jpg",
 		"oF": 0,
@@ -88,9 +144,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/src\/assets\/file5_big.png": {
+		"ft": 32768,
+		"iS": 338159,
+		"oA": 0,
+		"oAP": "\/src\/assets\/file5_big.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/icon_foot.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/assets\/icon_foot.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/src\/assets\/logo.jpg": {
 		"ft": 16384,
 		"iS": 69280,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/logo.jpg",
 		"oF": 0,
@@ -241,6 +319,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/src\/assets\/to_hachioji.jpg": {
+		"ft": 16384,
+		"iS": 92463,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/src\/assets\/to_hachioji.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/assets\/top-bg.png": {
 		"ft": 32768,
@@ -471,7 +560,8 @@
 	"creationDate": 543939628,
 	"displayValue": "plankton",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_teal"
+	"iconImageName": "brackets_teal",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2274,6 +2364,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
